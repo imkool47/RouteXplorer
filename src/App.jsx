@@ -1,12 +1,14 @@
 import { Routes, Route, Navigate } from "react-router-dom";
-import { Header } from "./components/Header";
-import { Home } from "./components/Home";
-import { ProductList } from "./components/ProductList";
-import { ProductDetail } from "./components/ProductDetail";
-import { Contact } from "./components/Contact";
-import { Admin } from "./components/Admin";
-import { PageNotFound } from "./components/PageNotFound";
-import { Footer } from "./components/Footer";
+import { Header, Footer } from "./components/index";
+
+import {
+  Home,
+  Contact,
+  Admin,
+  ProductList,
+  ProductDetail,
+  PageNotFound,
+} from "./pages/index";
 
 import "./App.css";
 

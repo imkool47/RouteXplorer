@@ -4,12 +4,12 @@ export const Contact = () => {
   const navigate = useNavigate();
 
   const handleSubmit = () => {
-    navigate("/");
+    return navigate("/");
   };
   return (
-    <>
+    <main>
       <div className="component">Contact</div>
       <button onClick={handleSubmit}>Back To Home</button>
-    </>
+    </main>
   );
 };
